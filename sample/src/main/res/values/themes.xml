@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat theme: MainActivity is an AppCompatActivity so the in-app language switch works below Android 13. -->
+    <style name="Theme.PrayerTimes" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <color name="window_background">#FFF8F6F1</color>
+    <color name="brand">#FF0F6E5B</color>
+</resources>

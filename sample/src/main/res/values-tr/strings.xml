@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ezan Vakitleri</string>
+
+    <string name="prayer_fajr">İmsak</string>
+    <string name="prayer_sunrise">Güneş</string>
+    <string name="prayer_dhuhr">Öğle</string>
+    <string name="prayer_asr">İkindi</string>
+    <string name="prayer_maghrib">Akşam</string>
+    <string name="prayer_isha">Yatsı</string>
+
+    <string name="tab_today">Bugün</string>
+    <string name="tab_month">Aylık</string>
+    <string name="tab_qibla">Kıble</string>
+    <string name="tab_settings">Ayarlar</string>
+
+    <string name="next_prayer">Sonraki vakit</string>
+    <string name="time_until">%1$s vaktine kalan süre</string>
+    <string name="now_badge">Şimdi</string>
+    <string name="current_prayer">Şu an: %1$s vakti</string>
+    <string name="tomorrow">Yarın</string>
+    <string name="change_city">Şehri değiştir</string>
+    <string name="plate_code">Plaka %1$s</string>
+    <string name="method_note">%1$s merkezi için Diyanet İşleri Başkanlığı yöntemi (Aladhan yöntem 13). api.aladhan.com üzerinden canlı.</string>
+
+    <string name="city_picker_title">İl seçin</string>
+    <string name="search_hint">81 il içinde ara</string>
+    <plurals name="province_count">
+        <item quantity="one">%d il</item>
+        <item quantity="other">%d il</item>
+    </plurals>
+    <string name="no_results">“%1$s” ile eşleşen il yok</string>
+    <string name="clear_search">Aramayı temizle</string>
+    <string name="back">Geri</string>
+    <string name="selected_next">%1$s · sonraki: %2$s %3$s</string>
+
+    <string name="month_column_day">Gün</string>
+    <string name="month_caption">%1$s · Diyanet yöntemi</string>
+
+    <string name="qibla_title">Kıble yönü</string>
+    <string name="qibla_from">%1$s merkezinden</string>
+    <string name="qibla_bearing">Gerçek kuzeyden %1$s° (%2$s)</string>
+    <string name="qibla_distance">Kâbe’ye %1$s km</string>
+    <string name="qibla_aladhan">Aladhan /qibla yanıtı: %1$s°</string>
+    <string name="qibla_no_sensor">Bu cihazda pusula sensörü yok, bu yüzden kadran dönmüyor. Ok, gerçek kuzey yukarıdayken hesaplanan yönü gösterir: kuzeye dönün, sonra saat yönünde %1$s° dönün.</string>
+    <string name="qibla_live">Pusula açık: ok yukarıyı gösterene kadar dönün. %1$s° manyetik sapma düzeltildi.</string>
+    <string name="north_short">K</string>
+    <string name="east_short">D</string>
+    <string name="south_short">G</string>
+    <string name="west_short">B</string>
+    <string name="qibla_use_compass">Pusulayı kullan</string>
+    <string name="qibla_static">Kadran, gerçek kuzey yukarıda olacak şekilde çizilir ve telefonu izlemez. Kuzeye dönün, sonra saat yönünde %1$s° dönün.</string>
+
+    <string name="settings_language">Dil</string>
+    <string name="language_system">Sistem dili</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="language_english">English</string>
+    <string name="settings_reminders">Vakit hatırlatıcıları</string>
+    <string name="reminders_description">%1$s için her vakitte bildirim.</string>
+    <string name="reminders_offset">Hatırlatma</string>
+    <string name="reminders_at_time">Vaktinde</string>
+    <string name="reminders_minutes_before">%1$d dk önce</string>
+    <string name="reminders_exact_needed">Hatırlatıcıların dakikasında gelmesi için tam zamanlı alarmlara izin verin. İzin olmadan Android bildirimleri birkaç dakika geç gösterebilir.</string>
+    <string name="reminders_allow">İzin ver</string>
+    <string name="reminders_next">Sonraki hatırlatma: %1$s, %2$s</string>
+    <string name="settings_about">Hakkında</string>
+    <string name="settings_about_text">Vakitler ücretsiz Aladhan API’sinden Diyanet yöntemiyle alınır. Aladhan vakitleri astronomik olarak hesaplar; resmî vakitler için Diyanet takvimiyle karşılaştırın. prayer-times-kotlin ile yapıldı.</string>
+
+    <string name="notification_channel">Vakit hatırlatıcıları</string>
+    <string name="notification_title">%1$s vakti</string>
+    <string name="notification_title_before">%1$s vaktine %2$d dakika</string>
+    <string name="notification_text">%1$s · %2$s</string>
+
+    <string name="widget_name">Sonraki vakit</string>
+    <string name="widget_description">Şehriniz için sonraki vakit ve bugünün vakitleri</string>
+    <string name="widget_error">Vakitler yüklenemedi. Açmak için dokunun.</string>
+
+    <string name="error_title">Vakitler yüklenemedi</string>
+    <string name="error_network">api.aladhan.com adresine ulaşılamadı. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="error_api">Aladhan bir hata döndürdü: %1$s</string>
+    <string name="retry">Tekrar dene</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A crescent and star on a teal disc. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@color/brand"
+        android:pathData="M24,2a22,22 0,1 1,0 44a22,22 0,1 1,0 -44z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26,11a13,13 0,1 0,9.5 22a10.5,10.5 0,1 1,-9.5 -22z" />
+    <path
+        android:fillColor="#FFF4C95D"
+        android:pathData="M33,17l1.5,3.2l3.5,0.4l-2.6,2.4l0.7,3.5l-3.1,-1.8l-3.1,1.8l0.7,-3.5l-2.6,-2.4l3.5,-0.4z" />
+</vector>
