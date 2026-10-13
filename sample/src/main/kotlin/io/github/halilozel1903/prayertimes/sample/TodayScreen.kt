@@ -218,7 +218,7 @@ private fun PrayerRow(time: PrayerTime, isCurrent: Boolean, isNext: Boolean, isP
             .fillMaxWidth()
             .padding(horizontal = 8.dp, vertical = 2.dp)
             .background(if (isCurrent) colors.secondaryContainer else Color.Transparent, RoundedCornerShape(16.dp))
-            .padding(horizontal = 12.dp, vertical = 12.dp),
+            .padding(horizontal = 12.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         PrayerGlyph(time.prayer, content, Modifier.size(22.dp))
